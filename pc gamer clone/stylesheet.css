@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(226, 226, 226);
+}
+nav {
+  height: 390px;
+}
+li {
+  font-size: large;
+  padding: 10px;
+}
+#pic {
+  height: 100%;
+}
+#pcgamer {
+  float: left;
+  width: 5%;
+}
+#top-nav {
+  background-color: black;
+  height: 60px;
+  display: flex;
+}
+#text {
+  word-spacing: 2px;
+
+  font-weight: 100;
+  font-size: 15px;
+  position: relative;
+  top: 6px;
+}
+#text2 {
+  word-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+  position: relative;
+  left: 26px;
+  top: 6px;
+}
+#flag {
+  border-radius: 2px;
+  height: 50%;
+  position: relative;
+  left: 6px;
+  top: 2px;
+}
+#flag:hover {
+  background: none;
+}
+#subscribe {
+  color: rgb(215, 29, 29);
+  background-color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 50%;
+  font-size: small;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0px 5px;
+}
+#subscribe:hover {
+  text-decoration: underline;
+}
+#subscribe:hover > #hiddenpanel {
+  display: block;
+}
+
+#low-nav {
+  background-color: rgb(211, 31, 31);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel {
+  max-width: 900px;
+  margin: 0 auto;
+  color: aliceblue;
+
+  display: flex;
+  height: 100%;
+}
+.textblock {
+  text-align: center;
+  padding: 0 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+.textblock:hover {
+  background-color: black;
+}
+#icon {
+  word-spacing: 15px;
+}
+
+#hover:hover > #morehover {
+  display: block;
+  opacity: 1;
+}
+#more {
+  position: relative;
+}
+
+#morehover {
+  background: black;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  padding: 23px;
+  display: none;
+  opacity: 0;
+  transition: 0.3s;
+}
+#hiddenpanel {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-color: azure;
+  border-top-style: solid;
+  border-width: 1px;
+  position: relative;
+  bottom: 50px;
+  padding-bottom: 65px;
+}
+.hiddentextblock {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+#top {
+  left: 177px;
+  position: relative;
+}
+.content {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+#hiddenpic {
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+}
+#lists {
+  flex-grow: 2;
+}
+#flexlist {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+#payme {
+  display: flex;
+  background-color: #d31010;
+  position: relative;
+  bottom: 13px;
+  max-width: 200px;
+  justify-content: center;
+  height: 43px;
+  align-items: center;
+}
+#mainsection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#newstitle {
+  display: flex;
+  flex-direction: row;
+  color: #df1111;
+  background: white;
+  justify-content: flex-start;
+  align-items: center;
+  width: 690px;
+  padding: 10px;
+  font-weight: 400;
+  margin-top: 43px;
+}
+.contentnews {
+  display: flex;
+
+  max-width: 690px;
+  position: relative;
+  margin-bottom: 10px;
+}
+#lowpanel {
+  width: 686px;
+}
+#pic1 {
+  width: 100%;
+  display: block;
+}
+.newsa {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 690px;
+}
+.ulc1 {
+  position: absolute;
+  top: 0px;
+  color: aliceblue;
+  background-color: #d31010;
+  padding: 10px;
+}
+.lowerpanel {
+  position: absolute;
+  background-color: black;
+  color: aliceblue;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+}
+#newsb {
+  display: flex;
+  width: 690px;
+  justify-items: center;
+  align-items: center;
+}
+#pic2 {
+  position: relative;
+  margin-left: 5px;
+}
+#pic3 {
+  width: 50%;
+}
+#left {
+  display: flex;
+  width: 335.5px;
+  color: #e2e2e2;
+  align-items: center;
+}
+#lowerlower {
+  display: flex;
+}
+#lowright {
+  position: relative;
+}
+#newspart {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#newschart {
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+#latestnews {
+  font-weight: 600;
+  text-transform: uppercase;
+  border-style: solid;
+  padding: 15px;
+  border-left: none;
+  border-right: none;
+  align-items: flex-start;
+  border-top-width: 1px;
+  border-bottom-width: 2px;
+  margin-bottom: 20px;
+}
+.newscontent {
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: inset;
+  border-width: 2px;
+  border-color: rgb(133, 133, 133);
+  margin-bottom: 10px;
+}
+.leftpic {
+  margin-bottom: 20px;
+  position: relative;
+  margin-right: 10px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  height: 200px;
+}
+.l1 {
+  font-size: x-large;
+  font-weight: 650;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.l2 {
+  font-size: medium;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.l3 {
+  font-size: large;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#lowernews {
+  display: flex;
+}
+#second {
+  position: absolute;
+  top: 0px;
+}
+#lpic {
+  position: relative;
+}
+footer {
+  background-color: rgb(58, 58, 58);
+  margin: 0px;
+  color: aliceblue;
+  font-size: large;
+}
+#footercontent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+}
+#bold {
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.line {
+  border-style: outset;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  margin: 80px 50px;
+}
+.footercontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footersections {
+  flex-grow: 2;
+}
+#morehoveritems {
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  margin-bottom: 10px;
+}
+.contentnews :hover > #uranus {
+  color: #d31010;
+}
+.newscontent :hover > .l1 {
+  color: #d31010;
+}
+@media only screen and (max-width: 690px) {
+  .desc {
+    width: 100% !important;
+  }
+  #lpic {
+    width: 100% !important;
+    background-size: cover !important;
+    height: 530px !important;
+  }
+  #pic2 {
+    width: 100% !important;
+    background-size: cover !important;
+    height: 530px !important;
+  }
+  .newscontent {
+    /* width: 100% !important; */
+    flex-direction: column;
+  }
+  #lowernews {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentnews {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .newsa {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
